@@ -1,0 +1,120 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: #F6F6F6;
+}
+.col-auto.col-md-3.col-xl-2.px-sm-2.px-0.bg-dark {
+	float: left;
+	width: 9%;
+}
+
+.bg-dark {
+	--bs-bg-opacity: 1;
+	background: #FFFFFF !important;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+}
+#menu li a i {
+	color: #A8A198;
+	font-size: 28px;
+}
+
+#menu li:hover a i {
+	color: #F7941F;
+	
+}
+
+
+#menu {
+	width: 100%;
+	margin-top: 36px;
+}
+#menu li {
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 11px;
+}
+.fs-5.d-none.d-sm-inline img {
+	width: 100%;
+	margin-top: 20px;
+}
+.mypading {
+	padding: 37px 80px;
+}
+.mypading tr {
+	background: #fff;
+}
+.s__d {
+	color: #000;
+	font-size: 38px;
+	margin-bottom: 58px;
+}
+thead {
+	border: none !important;
+}
+tbody {
+	border: none !important;
+}
+.mypading tr {
+	background: #fff;
+	border: 1px solid #0000001c;
+}
+
+.no_b th {
+	font-size: 13px;
+	font-weight: 300;
+	padding: 19px;
+}
+.all__td td {
+	font-size: 15px;
+	padding: 19px;
+	color: #000;
+}
+.all__td td span {
+	/* background: red; */
+	padding: 6px 9px;
+	background: #FFFAF3;
+	border: 1px solid rgba(247, 148, 31, 0.5);
+	box-sizing: border-box;
+	border-radius: 3px;
+	color: #444;
+	font-size: 14px;
+}
+.right_0 {
+	float: right;
+}
+.right_0 button {
+	background: #F7941F;
+	border-radius: 3px;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 9px 26px;
+}
+.s__d {
+	width: 100%;
+}
+.search-container {
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-bottom: 29px;
+	width: 34%;
+}
+.search-container input {
+	width: 83%;
+	padding: 12px;
+	border: none;
+}
+.search-container button {
+	background: transparent;
+	border: none;
+	
+	padding-left: 13px;
+	color: #666;
+}
+.focus-only:focus {
+    outline: none;
+    background: transparent;
+  }
+  

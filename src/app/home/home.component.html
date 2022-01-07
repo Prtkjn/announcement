@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col py-12 mypading">
+            <caption class="s__d">Announcements  <span class="right_0"><button> + New Announement</button></span></caption>
+
+            <div class="search-container">
+                <form>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  <input type="text" placeholder="Search.." name="search">
+                 
+                </form>
+              </div>
+
+
+            <table class="table caption-top">
+               
+                
+                <thead>
+                    <tr class="no_b">
+                        <th scope="col">NAME</th>
+                        <th scope="col">ANNOUNCEMNT TYPE</th>
+                        <th scope="col">AUDIO FILES</th>
+                        <th scope="col">APPLYTO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="all__td" *ngFor="let announcement of announcements">
+                        <td>{{announcement.name}}</td>
+                        <td>{{announcement.type}}</td>
+                        <td>{{announcement.file}}</td>
+                        <td ng-bind-html><span>{{announcement.action}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
